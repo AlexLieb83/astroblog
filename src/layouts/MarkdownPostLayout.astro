@@ -1,0 +1,9 @@
+---
+const { frontmatter } = Astro.props;
+---
+<!-- TODO -->
+<!-- flesh out blog post templates, what else repeats every post? -->
+
+<h1>{frontmatter.title}</h1>
+<p>Written by {frontmatter.author}</p>
+<slot />
